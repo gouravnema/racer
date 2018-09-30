@@ -1,0 +1,44 @@
+<html>
+<head>
+ <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+ <link rel="stylesheet" HREF="style.css" TYPE="text/css" MEDIA=screen>
+</head>
+ <body onkeydown="handleKey(event)">
+    <div id='frame'>
+        <div id=track>
+
+          <div id="seperator1" class="seperator">
+                <div class=spots id=spotA></div>
+          </div>
+
+          <div id="seperator2" class="seperator">
+                <div class=spots id=spotB></div>
+          </div>
+
+          <div class="car" id="player">
+            <img src="car.png" class="rotate270">
+          </div>
+
+            <div class="obstacle" id="obstaclePolice">
+              <i class="police-car"></i>
+            </div>
+            <div class="obstacle" id="obstacleTrailer">
+                <i class="trailer"></i>
+            </div>
+
+            <div class="obstacle" id="obstacleCar1">
+                <i class="car1"></i>
+            </div>
+            <div class="obstacle" id="obstacleCar2">
+                <i class="car2"></i>
+            </div>
+
+            <div class="obstacle" id="obstacleTruck">
+                <i class="truck"></i>
+            </div>
+
+      </div>
+    </div>
+ </body>
+<script src="index.js" lang="javascript"></script>
+</html>

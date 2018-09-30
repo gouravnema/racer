@@ -1,0 +1,117 @@
+div#frame{
+  position: absolute;
+  top:0vh;
+  left:0vw;
+}
+body{
+  overflow: hidden;
+}
+div#track{
+ width:30vw;
+ height: 100vh;
+ background:grey;
+ margin: 0vw auto;
+ position: relative;
+}
+
+div.seperator{
+  width: 0.25vw;
+  height: 100vh;
+  position: absolute;
+  display: inline-block;
+  background: white;
+  top:0vh;
+}
+
+div.spots{
+  width: inherit;
+  height: 4vh;
+  background: grey;
+  position: absolute;
+  top:0vh;
+  display: inline-block;
+}
+
+div.car{
+  z-index: 1;
+  position:absolute;
+  height: 19vh;
+  width: 9vw;
+  top:80vh;
+  display: inline-block;
+}
+div.car img{
+    height: 100%;
+    width: 100%;
+}
+img.rotate270{
+      -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: rotate(270deg);
+}
+
+div#seperator1{
+    left: 10vw;
+}
+
+div#seperator2{
+    left: 20vw;
+}
+
+div#frame{
+  width: 100vw;
+  height:100vh;
+  background:green;
+}
+
+div.obstacle{
+    position: relative;
+    display: inline-block;
+    top:-20vh;
+}
+
+i.police-car{
+    background-image: url(vs.jpeg);
+    height: 62px;
+    width: 29px;
+    display: inline-block;
+    background-position: -78px -149px;
+    background-repeat: no-repeat;
+}
+i.trailer{
+    background-image: url(vs.jpeg);
+    height: 94px;
+    width: 29px;
+    display: inline-block;
+    background-position: -181px -3px;
+    background-repeat: no-repeat;
+}
+
+i.car1{
+    background-image: url(vs.jpeg);
+    height: 59px;
+    width: 29px;
+    display: inline-block;
+    background-position: -111px -29px;
+    background-repeat: no-repeat;
+}
+
+i.car2{
+    background-image: url(vs.jpeg);
+    height: 53px;
+    width: 29px;
+    display: inline-block;
+    background-position: -9px -156px;
+    background-repeat: no-repeat;
+}
+
+i.truck{
+    background-image: url(vs.jpeg);
+    height: 57px;
+    width: 29px;
+    display: inline-block;
+    background-position: -147px -30px;
+    background-repeat: no-repeat;
+}
